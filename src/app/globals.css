@@ -1,0 +1,28 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+i{
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgba(77, 77, 77, 0.888);
+}
+hr{
+    margin-top: .5vw;
+}

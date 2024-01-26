@@ -1,0 +1,201 @@
+.ntop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .6vw;
+}
+.fb{
+    color: blue;
+    letter-spacing: -.2px;
+    
+}
+
+.ncenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .6vw;
+}
+.nbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5vw;
+}
+.textbar{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    outline: none;
+    border-radius: 50px;
+    height: 33px;
+    padding: .6vw 1vw;
+    width: 70%;
+}
+.frame{
+    position: relative;
+    height: 8vw;
+    width: 5vw;
+    border-radius: 8px;
+    margin: 0 .2vw;
+    overflow: hidden;
+
+}
+.innercircle{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+.storybox{
+    width: fit-content;
+    display: flex;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pimage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img{
+    height: 2.7vw;
+    width: 2.7vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.addphoto i{
+    color: rgb(205, 133, 0);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .6vw;
+}
+.box a i{
+    font-size: 1.5vw;
+}
+.menubar{
+    margin: .5vw 0;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw .6vw;
+}
+.profileframe{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    padding:.5vw;
+
+}
+.profilepic{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info{
+    display: flex;
+    width: 72%;
+    gap: .2vw;
+    flex-direction: column;
+    
+
+}
+
+.addrem{
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+.addrem button{
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: .8vw;
+    border-radius: 3px;
+    padding: .2vw 0;
+    margin-top: .3vw;
+    cursor: pointer;
+}
+.add{
+    width: 48%;
+    background-color: blue;
+    color: white;
+}
+.rem{
+    width: 48%;
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+.profilename{
+    font-weight: 600;
+}
+.mutual{
+    color: rgb(93, 93, 93);
+    font-size: .9vw;
+}
+.friendnoti{
+    position: relative;
+}
+.friendnoti::before{
+    content: attr(data-count);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px  black;
+    font-size: 10px;
+    font-weight: 500;
+}
+.noti{
+    position: relative;
+}
+.noti::before{
+    content: attr(count);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px  black;
+    font-size: 10px;
+    font-weight: 500;
+}
